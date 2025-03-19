@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/backgrouund.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.back img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.log-in{
+    color: white;
+}
+
+.container_logo{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.container_logo img{
+    width: 50px;
+    height: 60px;
+}
+
+.input-login {
+    display: flex;
+    background: #FFFEFA; 
+    margin: 15px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;    
+}
+
+.input-login input {
+    border: none;/* Removes the border around the input field */
+    outline: none; /* Removes the outline that appears when the input is focused */
+    background: transparent; 
+    font-size: 16px;
+    margin-left: 30px;
+
+}
+
+.forgot-pass a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none; /* remove line */
+}
+
+.container_butn {
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient(to right, #a87df3, #6756d7);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+.NeedHelp a{
+    color: #D5D5D7;
+    font-size: 16px;
+    text-decoration: none; /* remove line */
+    font-weight: 500;
+}
