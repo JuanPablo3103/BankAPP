@@ -15,14 +15,28 @@
     flex-direction: column;
 }
 
+.containertop{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+
 .back img{
     width: 20px;
     height: 20px;
-    display: flex;
+    position: absolute;
+    left: 20px; /* Ajusta la posición según necesites */
 }
 
 .log-in{
     color: white;
+    font-size: 35px;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .container_logo{
@@ -33,11 +47,16 @@
     justify-content: center;
     align-items: center;
     border-radius: 3px;
+    margin-bottom: 30px;
 }
 
 .container_logo img{
     width: 50px;
     height: 60px;
+}
+
+.inputs{
+    margin-bottom: 20px; 
 }
 
 .input-login {
@@ -46,7 +65,7 @@
     margin: 15px;
     width: 300px;
     height: 30px;
-    border-radius: 5px;    
+    border-radius: 5px;   
 }
 
 .input-login input {
@@ -55,6 +74,11 @@
     background: transparent; 
     font-size: 16px;
     margin-left: 30px;
+    ma
+}
+
+.forgot-pass {
+    margin-bottom: 150px;
 
 }
 
@@ -71,11 +95,15 @@
     border: none;
     color: white;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    
   }
 
+.NeedHelp{
+    margin-top: 20px;
+}
 .NeedHelp a{
-    color: #D5D5D7;
+    color: black;
     font-size: 16px;
     text-decoration: none; /* remove line */
     font-weight: 500;
